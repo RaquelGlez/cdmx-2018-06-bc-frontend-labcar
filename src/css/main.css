@@ -1,0 +1,35 @@
+/* Los estilos de tu proyecto */
+body {
+  font-family: 'Roboto', sans-serif;
+  color: white;
+}
+
+.vista1 {
+  height: 800px;
+  background-image: url("../images/taxi.jpg");
+  background-size: 100% 100%;
+  font-size: 30px;
+}
+
+.vista1-1 {
+  height: 100px;
+  width: 300px;
+  background-color: #F7B617;
+}
+
+.vista2 {
+  height: 610px;
+  width: 430px;
+  background-color: #F7B617;
+}
+
+.vista2-1 {
+  padding: 30px;
+  margin: 30px;
+  border: 1px solid white;
+  font-size: 25px;
+}
+
+.vista2-2 {
+  font-size: 15px;
+}
