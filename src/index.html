@@ -1,51 +1,120 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.0/css/bootstrap.min.css" integrity="sha384-PDle/QlgIONtM1aqA2Qemk5gPOE7wFq8+Em+G/hmo5Iq0CCmYZLv3fVRDJ4MMwEA" crossorigin="anonymous">
     <link rel="stylesheet" href="css/main.css">
-    <title>Lab>ar</title>
-  </head>
-  <body>
-    <nav class="navbar navbar-light bg-light">  <!--navbar-expand-md-->
-      <button class="navbar-toggler navbar-toggler-rigth" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <a class="navbar-brand" href="index.html">
-        <img src="images/logoForma.png" class="d-inline-block align-top" alt="Logo Lab<ar">
-      </a>
-      <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-        <div class="navbar-nav">
-          <a class="nav-item nav-link active" href="#">Viaja</a>
-          <a class="nav-item nav-link" href="#">Conduce</a>
-          <a class="nav-item nav-link" href="#">Inicia sesión</a>
+    <title>Lab&lt;ar</title>
+</head>
+<body>
+<!-- Sección movil-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light d-flex bd-highlight">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand" href="#">
+            <img src="assets/logoForma.png" class="d-inline-block align-top logo" alt="Logo Labcar">
+        </a>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+            <div class="navbar-nav ml-auto bd-highlight">
+                <a class="nav-item nav-link active" href="#">Viaja</a>
+                <a class="nav-item nav-link" href="#">Conduce</a>
+                <a class="nav-item nav-link" href="#">Inicia sesión</a>
+            </div>
         </div>
-      </div>
     </nav>
-    <section class="container">
-      <div class="row vista1 align-items-center d-flex flex-row-reverse bd-highligh">
-        <div class="col-9 vista1-1">
-          Comienza a viajar con <img src="images/logoBlanco.png" width="93px">
-        </div>
-      </div>
-    </section>
-    <section class="container">
-      <div class="row vista2 d-flex justify-content-center">
-        <div class="col-12 vista2-1 text-center">
-          <p>La nueva app</p>
-          <img src="images/iPhone6Plus.png" >
-        </div>
-        <div class="col-12 vista2-2 text-justify">
-          <p>Llega a tu destino aún más rápido</p>
-        </div>
-    </section>
+        <section class="section-1 d-flex align-items-center flex-row-reverse bd-highlight  ">
+            <div class="image-taxi col-8 ">
+                <h1 class="py-4">Comienza a viajar con
+                    <a href="">
+                        <img src="assets/logoBlanco.png" alt="">
+                    </a>
+                </h1>
+                <button type="button" class="btn btn-light pb-2 btn-app">Descarga el app</button>
+            </div>
+        </section>
+        <section class="section-2 ">
+            <div class="borde d-flex justify-content-center align-items-center">
+                <div class="col-9">
+                    <h2 class="pb-2">La nueva app</h2>
+                    <a href="">
+                        <img src="assets/iPhone6Plus.png" alt="cell-labcar" id="cell-labcar">
+                    </a>
+                </div>    
 
+            </div>
+            <div>Llega a tu destino aún más rápido</div>  
+        </section>
+        <section class="section-3 d-flex align-items-center">
+            <div class="p-4">
+                <h2>Conduce cuando quieras</h2>
+                <p class="description-driver">LabCar es una opción flexible para alcanzar tus metas financieras</p>
+                <button type="button" class="btn btn-light btn-driver">Conviértete en conductor</button>
+            </div>
+        </section>
+        <section class="section-4">
+            <div class="rate">
+                <form class="col-12 " action="">
+                    <h1>Tarifas</h1>
+                    <p>Consulta las tarifas LabCar aquí</p>
+                    <div class="form-group imputs-route">
+                        <span class="mr-2 mt-2">
+                            <img src="assets/shape.png" alt="">
+                        </span>
+                        <input type="text" class="form-control" id="start-route" aria-describedby="emailHelp" placeholder="Insurgentes Centro, Cuauhtémoc, Ciudad de México, México">
+                    </div>
+                    <div class="form-group imputs-route">
+                        <span class="mr-2 mt-2">
+                            <img src="assets/shape2.png" alt="">
+                        </span>
+                        <input type="text" class="form-control" id="finish-route" placeholder="Carolina, Ciudad de los Deportes, Ciudad de México, México">
+                    </div>
+                    <div class="d-flex justify-content-center">
+                        <button type="button" class="btn btn-light btn-rate">¡TRAZAR RUTA!</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+        <footer class="footer">
+            <div class="logo-footer">
+                <img class="mb-4" src="assets/logoBlanco.png" alt="">
+                <hr class="hr-footer">
+            </div>
+            <div class="row list-footer">
+                <div class="col-5 items-footer">
+                    <ul>
+                        <li>Viaja</li>
+                        <li>Conduce</li>
+                        <li>Ciudades</li>
+                        <li>Entregas</li>
+                        <li>¿Cómo funciona?</li>
+                        <li>Países</li>
+                        <li>Seguridad</li>
+                    </ul>
+                </div>
+                <div class="col-7 icons-footer">
+                    <div class="icons d-flex justify-content-left">
+                        <i class="fab fa-facebook-f pr-4"></i>
+                        <i class="fab fa-twitter pr-4"></i>
+                        <i class="fab fa-linkedin-in pr-4"></i>
+                        <i class="fab fa-apple pr-4"></i>
+                        <i class="fas fa-play"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="logo-footer">
+                <hr class="hr-footer"> 
+                <a href="" class="footer-link">&#64; 2017 LabCar technologies Inc.</a>
+            </div>
 
-
+            
+        </footer>
+    <div></div>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-  </body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.0/js/bootstrap.min.js" integrity="sha384-7aThvCh9TypR7fIc2HV4O/nFMVCBwyIUKL8XCtKE+8xgCgl/PQGuFsvShjr74PBp" crossorigin="anonymous"></script>
+    <script src="./js/app.js"></script>
+</body>
 </html>

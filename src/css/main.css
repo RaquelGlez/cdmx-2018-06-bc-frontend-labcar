@@ -1,35 +1,187 @@
-/* Los estilos de tu proyecto */
+
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: 100% 'Roboto', sans-serif;
   color: white;
 }
 
-.vista1 {
-  height: 800px;
-  background-image: url("../images/taxi.jpg");
+/*Estilos de navbar movil*/
+
+.bg-light{
+  background-color: #ffffff!important; }
+
+.navbar-brand{
+  height: 40px;
+  /*line-height: 0;*/
+  margin: 15px;
+  /*position: relative;*/
+  width: 150px;
+}
+
+.container {
+  margin: 0;
+  padding: 0;
+}
+
+.section-1{
+  background-image: url(../assets/taxi.png);
+  /*background-size: auto 2060px;*/
   background-size: 100% 100%;
-  font-size: 30px;
+  height: 360px;
+  width: 100%;
 }
 
-.vista1-1 {
-  height: 100px;
-  width: 300px;
-  background-color: #F7B617;
+h1{
+  font-size: 2em;
 }
 
-.vista2 {
-  height: 610px;
-  width: 430px;
-  background-color: #F7B617;
+.image-taxi {
+  background-color: #ffb700;
+  padding: 15px 30px;
 }
 
-.vista2-1 {
-  padding: 30px;
-  margin: 30px;
-  border: 1px solid white;
-  font-size: 25px;
+.btn-app {
+  background-color: #ffffff;
+  font-weight: bold;
+  padding: 10px;
 }
 
-.vista2-2 {
-  font-size: 15px;
+.section-2{
+  background-color: #ffb700;
+  /*margin: 0;
+  padding: 0;*/
+  padding: 30px 15px;
+  height: 450px;
+}
+
+.borde {
+  border: 2px solid #ffffff;
+  height: 350px;
+  margin: 0 auto 30px auto;
+  text-align: center;
+}
+
+#cell-labcar {
+  width: 83%;
+  display: block;
+  margin: 0 auto;
+}
+
+.section-3 {
+  background-image: url(../assets/conduce.png);
+  background-size: 100% 100%;
+  height: 360px;
+  width: 100%;
+}
+
+.btn-driver {
+  background-color: #ffb700;
+  color: white;
+}
+
+.section-4 {
+  background-color: #ffb700;
+  width: 100%;
+}
+
+.rate {
+  width: 95%;
+  display: inline-block;
+  padding: 30px 10px;
+}
+
+.btn-rate {
+  padding: 10px 30px;
+}
+
+.imputs-route {
+  display: flex;
+}
+
+.form-control::placeholder {
+  color: #ffffff; }
+
+#start-route, #finish-route {
+  background-color: #ffb700;
+}
+
+.border-bottom {
+  color: white;
+}
+
+.footer {
+  background-color: #2B2B2B;
+}
+
+.logo-footer {
+  padding: 30px 20px;
+}
+
+.row.list-footer {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.hr-footer {
+  background-color: #ffffff;
+  border: none;
+  color: #ffffff;
+  height: 1px;
+  margin: 0 auto;
+  text-align: center;
+   }
+
+.items-footer ul {
+  list-style-type: none;
+}
+
+.items-footer li {
+  padding-bottom: 0.8rem;
+}
+
+.icons-footer {
+  padding-right: 0;
+}
+
+.footer-link {
+  color: #ffffff;
+  font-size: 0.55 rem;
+}
+
+@media (min-width: 480px) and (max-width: 768px) {
+  #cell-labcar {
+    width: 55%;
+    display: block;
+    margin: 0 auto;
+  }
+}
+
+
+@media (min-width: 768px) and (max-width: 1224px) {
+  .section-1{
+    height: 720px;
+    width: 100vw;
+    /* background-size: 100% 100%; */
+  }
+
+  #cell-labcar {
+    width: 30%;
+    display: block;
+    margin: 0 auto;
+  }
+}
+
+
+@media (min-width: 1224px) {
+  .section-1{
+    height: 720px;
+    width: 100vw;
+    /* background-size: 100% 100%; */
+    /* height: 360px;*/
+  }
+
+  #cell-labcar {
+    width: 22%;
+    display: block;
+    margin: 0 auto;
+  }
 }
